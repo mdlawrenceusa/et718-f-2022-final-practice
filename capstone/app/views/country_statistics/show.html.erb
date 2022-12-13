@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @country_statistic.name %>
+</p>
+
+<p>
+  <strong>Mobilephones:</strong>
+  <%= @country_statistic.mobilephones %>
+</p>
+
+<p>
+  <strong>Mortalityunder5:</strong>
+  <%= @country_statistic.mortalityunder5 %>
+</p>
+
+<p>
+  <strong>Healthexpenditurepercapita:</strong>
+  <%= @country_statistic.healthexpenditurepercapita %>
+</p>
+
+<p>
+  <strong>Healthexpenditureppercentgdp:</strong>
+  <%= @country_statistic.healthexpenditureppercentGDP %>
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @country_statistic.population %>
+</p>
+
+<p>
+  <strong>Populationurban:</strong>
+  <%= @country_statistic.populationurban %>
+</p>
+
+<p>
+  <strong>Birthrate:</strong>
+  <%= @country_statistic.birthrate %>
+</p>
+
+<p>
+  <strong>Lifeexpectancy:</strong>
+  <%= @country_statistic.lifeexpectancy %>
+</p>
+
+<p>
+  <strong>Gdp:</strong>
+  <%= @country_statistic.GDP %>
+</p>
+
+<%= link_to 'Edit', edit_country_statistic_path(@country_statistic) %> |
+<%= link_to 'Back', country_statistics_path %>
